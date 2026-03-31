@@ -27,6 +27,8 @@
       <h2>Our Collection</h2>
       <p>Browse featured books, magazines, and bookstore items.</p>
       <a href="#" class="btn">View Shopping Cart</a>
+      <button onclick="clearCartAlert()">Clear Cart</button>
+      <button onclick="processOrderAlert()">Process Order</button>
     </section>
 
     <section class="gallery">
@@ -35,55 +37,55 @@
         <div class="card">
           <img src="brie-book.jpg" alt="Brie Mine 4Ever book">
           <p>Brie Mine 4Ever, a book for cheese lovers</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="glory-riders.jpg" alt="Glory Riders book">
           <p>Glory Riders, a book about bikers</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="sorcerer.jpg" alt="Sorcerer's Shadowed Chronicles book">
           <p>Sorcerer’s Shadowed Chronicles, a fantasy book</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="ball-mag.jpg" alt="Ball magazine">
           <p>Ball, a magazine about pickleball</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="travel-mag.jpg" alt="Travel magazine">
           <p>Travel, a magazine for travelers</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="eat-mag.jpg" alt="Eat magazine">
           <p>Eat., a magazine for foodies</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="tote.jpg" alt="Book Haven tote bag">
           <p>Tote bag with text that says ALL I DO IS READ READ READ</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="notebook.jpg" alt="Book Haven notebook">
           <p>A notebook labeled Book Haven Bookstore</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
         <div class="card">
           <img src="stickers.jpg" alt="Book Haven stickers">
           <p>A set of Book Haven Bookstore stickers that promote reading</p>
-          <button>Add to Cart</button>
+          <button onclick="addToCartAlert()">Add to Cart</button>
         </div>
 
       </div>
@@ -96,7 +98,7 @@
         <h3>Subscribe to Our Newsletter</h3>
         <form>
           <input type="email" placeholder="Your email">
-          <button type="submit">Subscribe</button>
+          <button type="button" onclick="subscribeAlert()">Subscribe</button>
         </form>
       </div>
 
@@ -120,6 +122,6 @@
       </div>
     </div>
   </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
